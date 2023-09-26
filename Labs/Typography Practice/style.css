@@ -1,0 +1,40 @@
+/* Add your CSS here! */
+body{
+    background-color:#052A62;
+    text-align:center;
+    font-family: sans-serif;
+    }
+    img {
+        height: 250px;
+    }
+    h1{
+        color:#E5FDC4;
+        letter-spacing: 1px;
+    }
+    #p1{
+        text-align: justify;
+        color:#00D4FD;
+    }
+    #p2{
+        color:#FDA202;
+        text-align: justify;
+    }
+    ul{
+        color:#E5FDC4;
+        text-align: left;
+    }
+    h3{
+        color:#E5FDC4;
+        letter-spacing: 1px;
+        text-align: left;
+        text-decoration: underline;
+    }
+    #p3{
+        font-style: italic;
+        color:#E5FDC4;
+    }
+    a{
+       color :#FDA202 ;
+       text-transform: uppercase;
+       text-decoration: none;
+    }
