@@ -10,8 +10,8 @@ reverseUpcaseString("SEI Rocks!"); //=> "!SKCOR IES"
 
 function reverseUpcaseString(string){
     for (let i=1; i <string.length-1; i--){
-        let string = newString;
+        let newString = string[i];
     }
     return newString;
 }
-reverseUpcaseString("harry");
+console.log (reverseUpcaseString.toUpperCase("harry"));
