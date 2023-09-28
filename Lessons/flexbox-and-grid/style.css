@@ -6,6 +6,14 @@
   body {
     margin: 0;
     font-family: Helvetica;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;grid-template-rows: 50px 1fr 30px;
+  }
+  .flex-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   nav {
     height:50px;
@@ -22,4 +30,19 @@
   }
   nav > div:last-child {
     margin-left: auto;
+  } 
+  aside {
+    background-color: #a2b4da;
   }
+      
+  main {
+    background-color: #f3dba8;
+  }
+      
+  footer {
+    background-color: #a2cbb6;
+  }
+  nav, footer {
+    grid-column: 1 / 3;
+  }
+  
