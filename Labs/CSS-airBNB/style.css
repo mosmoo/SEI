@@ -1,0 +1,63 @@
+body {
+    background-color: #ECEFEC;
+    color: #565A5D;
+    text-align:center;
+    font-family: helvetica;
+}
+h1{
+    font-weight:bold;
+    letter-spacing: 1.5px;
+    font-size: x-large;
+}
+h3{
+    font-size: medium;
+}
+#heading{
+    margin-top: 50px;
+}
+.container{
+    width:70%;
+    height: 350px;
+    color:white;
+}
+h2{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.imgContainter{
+    background-size:cover;
+    height:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+.img1{
+    background-image: url("/Labs/CSS-airBNB/img/san-francisco.jpg");
+}
+.img2{
+    background-image: url("/Labs/CSS-airBNB/img/new-york.jpg");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img3{
+    background-image: url("/Labs/CSS-airBNB/img/london.jpg");
+}
+.img4{
+    background-image: url("/Labs/CSS-airBNB/img/napa.jpg");
+
+}
+.img5{
+    background-image: url("/Labs/CSS-airBNB/img/sonoma.jpg");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img6{
+    background-image: url("/Labs/CSS-airBNB/img/san-francisco-2.jpg");
+}
+button{
+    margin:5%;
+    padding:10px 70px;
+    border-color: #565A5D;
+    color: #565A5D;
+}
