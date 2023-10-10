@@ -25,7 +25,7 @@ console.log("We're live!");
 const inputEl = document.querySelector('input')
 const lettersEl = document.querySelectorAll('.letter')
 
-input.addEventListener('keydown',(e) => {
+inputEl.addEventListener('keydown',(e) => {
   const key = e.key;
   const divEl = document.querySelector (`[data-letter="${key}"]`)
 
@@ -34,7 +34,7 @@ input.addEventListener('keydown',(e) => {
   }
 })
 
-input.addEventListener('keyup',(e) => {
+inputEl.addEventListener('keyup',(e) => {
   const keyUp = e.key
   const divEl = document.querySelector(`[data-letter="${keyUp}"]`)
   if (divEl){
