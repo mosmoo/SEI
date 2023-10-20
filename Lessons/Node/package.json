@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "name": "hello-node",
+  "version": "1.0.0",
+  "description": "Manasvi's super duper amazing node application\"",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manasvi",
+  "license": "ISC"
+}
