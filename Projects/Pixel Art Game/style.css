@@ -1,0 +1,157 @@
+body{
+    background-image: url('https://github.com/mosmoo/Pixel-Art-Game/blob/main/web-background.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+ul{
+   display: flex;
+}
+.topNav{
+    display: inline;
+    border: 2px solid black;
+    padding: 5px 50px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #94AE89;
+}
+.topNav:hover{
+    border: 2px solid #FEFBEC;
+    color: #FEFBEC;
+    cursor: pointer;
+}
+.palette-container{
+    display: flex;
+}
+.palette{
+    display: inline;
+    border: 2px solid black;
+    padding: 20px 20px;
+    margin: 5px;
+    border-radius: 40px;
+}
+#color1{
+    background-color: #ff6961;
+}
+#color1:hover{
+    border: 2px solid white;
+}
+#color2{
+    background-color: #ffb480;
+}
+#color2:hover{
+    border: 2px solid white;
+}
+#color3{
+    background-color: #f8f38d;
+}
+#color3:hover{
+    border: 2px solid white;
+}
+#color4{
+    background-color: #42d6a4;
+}
+#color4:hover{
+    border: 2px solid white;
+}
+#color5{
+    background-color: #08cad1;
+}
+#color5:hover{
+    border: 2px solid white;
+}
+#color6{
+    background-color: #59adf6;
+}
+#color6:hover{
+    border: 2px solid white;
+}
+#color7{
+    background-color: #9d94ff;
+}
+#color7:hover{
+    border: 2px solid white;
+}
+#color8{
+    /* background-color: #c780e8; */
+    background-color: #FEFBEC;
+}
+#color8:hover{
+    border: 2px solid white;
+}
+#main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    background-color: green;
+    gap:0px;
+    width: 40%; 
+    border: 2px solid black;
+    margin: auto;
+    background-color: #FEFBEC;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: none;
+    font-size: 8px;
+}
+.grid-item{
+    border:0.2px solid rgba(0, 0, 0, 0.127);
+    padding-top:80%;
+    
+}
+.grid-item:hover{
+    border:0.5px solid rgba(0, 0, 0, 1);
+}
+.gray{
+    background-color: gray;
+}
+
+
+/* bottom */
+/* #grid48{
+    border-bottom:1px solid rgba(0, 0, 0, 1);
+}
+#grid49{
+    border-bottom:1px solid rgba(0, 0, 0, 1);
+}
+#grid50, #grid125, #grid126,#grid133, #grid132, #grid127, #grid131, #grid67, #grid68, #grid88, #grid92, #grid72,#grid71, #grid109, #grid110{
+    border-bottom:1px solid rgba(0, 0, 0, 1);
+} */
+
+
+
+/* left */
+/* #grid65{
+    border-left:1px solid rgba(0, 0, 0, 1);
+}
+#grid85, #grid105, #grid125, #grid88, #grid92, #grid110{
+    border-left:1px solid rgba(0, 0, 0, 1);
+}
+
+
+
+/* right */
+/* #grid73, #grid93, #grid113, #grid133, #grid88, #grid92{
+    border-right:1px solid rgba(0, 0, 0, 1);
+} */
+.topLeftAndRight{
+    border-top:1px solid rgba(0, 0, 0, 1);
+    border-left:1px solid rgba(0, 0, 0, 1);
+    border-right:1px solid rgba(0, 0, 0, 1);
+}
+.topAndLeft{
+    border-top:1px solid rgba(0, 0, 0, 1);
+    border-left:1px solid rgba(0, 0, 0, 1);
+}
+.topAndRight{
+    border-top:1px solid rgba(0, 0, 0, 1);
+    border-right:1px solid rgba(0, 0, 0, 1);
+}
+.bottom{
+    border-bottom:1px solid rgba(0, 0, 0, 1);
+}
+.left{
+    border-left:1px solid rgba(0, 0, 0, 1);
+}
+.right{
+    border-right:1px solid rgba(0, 0, 0, 1);
+}

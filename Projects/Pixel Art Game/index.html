@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Game</title>
+    <script defer src="https://github.com/mosmoo/Pixel-Art-Game/blob/main/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- Nav Bar on top left -->
+    <nav>
+        <ul>
+            <li class="topNav" id="diy">DIY</li>
+            <li class="topNav">Heart</li>
+            <li class="topNav" id="cat">Cat</li>
+        </ul>
+    </nav>
+<!-- Nav Bar on the top left -->
+
+<!-- Color Palette on the bottom left -->
+    <div>
+        <ul id="palette-container">
+            <li class="palette" id="color1" data-color="#ff6961"></li>
+            <li class="palette" id="color2" data-color="#ffb480"></li>
+            <li class="palette" id="color3" data-color="#f8f38d"></li>
+            <li class="palette" id="color4" data-color="#42d6a4"></li>
+            <li class="palette" id="color5" data-color="#08cad1"></li>
+            <li class="palette" id="color6" data-color="#59adf6"></li>
+            <li class="palette" id="color7" data-color="#9d94ff"></li>
+            <li class="palette" id="color8" data-color="#FEFBEC"></li>
+        </ul>
+    </div>
+<!-- Color Palette on the bottom left -->
+
+<!-- Pixel Grid -->
+<div id="main-container">
+    <script>
+        for (let i = 1; i <= 400; i++) {
+        // document.write('<div class="grid-item" id="grid' +i+'" >'+i+'</div>');
+
+        document.write('<div class="grid-item" id="grid' +i+'" ></div>');
+        }
+      </script>
+</div>
+<!-- Pixel Grid -->
+
+<!-- Custom Cursor -->
+
+<!-- Custom Cursor -->
+</body>
+</html>
