@@ -1,0 +1,31 @@
+{
+    "name": "Manasvi Saluja",
+    "website": "https://mosmoo.github.io/Portfolio/",
+    "linkedin": "https://www.linkedin.com/in/manasvi-saluja/",
+    "github": "mosmoo",
+    "email": "manasvisaluja2003@gmail.com",
+    "resume": "https://mosmoo.github.io/Portfolio/Manasvi_Resume.pdf",
+    "proficientTechnologies": [
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Python",
+        "PostgreSQL",
+        "Mongodb",
+        "JSON",
+        "Typescript",
+        "EJS",
+        "DTL",
+        "React",
+        "Vue",
+        "Node",
+        "Express",
+        "Django",
+        "Wordpress",
+        "Drupal"
+    ],
+    "otherSkills": [
+        "Adobe Photoshop",
+        "Procreate"
+    ]
+}
