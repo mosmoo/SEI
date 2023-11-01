@@ -108,5 +108,17 @@ console.log(laserFanCat)
 
 // Prompts for filter
 // - Use the filter method to get all cats that are older than 3 years.
+const olderKittens = cats.filter((cat)=>{ //Returns more than 1
+  return cat.age > 3
+})
+console.log(olderKittens)
 // - Use the filter method to get all female cats.
+const femaleCats = cats.filter((cat)=>{ //Returns more than 1
+  return cat.gender ==="female"
+})
+console.log(femaleCats)
 // - Use the filter method to retrieve all cats with a "short" hair length.
+const shortHairs = cats.filter((cat)=>{ //Returns more than 1
+  return cat.hairLength ==="short"
+})
+console.log(shortHairs)
