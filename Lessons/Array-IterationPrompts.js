@@ -48,9 +48,17 @@ const cats = [
 
 // Prompts for forEach
 // - Log each cat's hairColor and age using the forEach method.
+cats.forEach((cat)=>{
+  console.log(cat.hairColor, cat.age)
+})
 // - Increase the age of each cat by 1 year using the forEach method.
+cats.forEach((cat)=>{
+  cat.age += 1
+})
 // - Log a message describing each cat's favorite toy using the forEach method.
-
+cats.forEach((cat)=>{
+  console.log(cat.favoriteToy)
+})
 // Prompts for map
 // - Create a new array containing only the hairColor of each cat using the map method.
 // - Create a new array where each cat's age is doubled using the map method.
