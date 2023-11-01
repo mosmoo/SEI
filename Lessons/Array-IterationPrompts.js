@@ -79,8 +79,32 @@ const changedGenders= cats.map((cat)=>{
 })
 // Prompts for find
 // - Use the find method to get the first cat that is "grumpy".
+const fiona = cats.find((cat)=>{
+  return cat.name === "Fiona" //condition
+})
+console.log(fiona)
+
+const grumpyCat = cats.find((cat)=>{
+  return cat.temperament ==="grumpy"
+})
+console.log(grumpyCat)
 // - Use the find method to get the first cat with a "long" hair length.
+const cathairLength = cats.find((cat)=>{ //Returns only 1
+  return cat.hairLength ==="long"
+})
+console.log(cathairLength)
+
+const cathairLengthAll = cats.filter((cat)=>{ //Returns more than 1
+  return cat.hairLength ==="medium"
+})
+console.log(cathairLengthAll)
 // - Use the find method to retrieve the first cat whose favorite toy is a "laser pointer".
+
+const laserFanCat = cats.find((cat)=>{
+  return cat.favoriteToy === "laser pointer"
+})
+console.log(laserFanCat)
+
 
 // Prompts for filter
 // - Use the filter method to get all cats that are older than 3 years.
