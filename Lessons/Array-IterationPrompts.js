@@ -61,9 +61,22 @@ cats.forEach((cat)=>{
 })
 // Prompts for map
 // - Create a new array containing only the hairColor of each cat using the map method.
-// - Create a new array where each cat's age is doubled using the map method.
-// - Create a new array of cats, but change the gender of each cat using the map method.
+const hairColors =  cats.map((cat)=>{
+  return cat.hairColor
+})
+console.log(hairColors)
 
+// - Create a new array where each cat's age is doubled using the map method.
+const doubledAge =  cats.map((cat)=>{
+  cat.age *=2
+  return cat
+})
+console.log(doubledAged)
+// - Create a new array of cats, but change the gender of each cat using the map method.
+const changedGenders= cats.map((cat)=>{
+  cat.gender = cat.gender === "male" ? "female" : "male"
+  return
+})
 // Prompts for find
 // - Use the find method to get the first cat that is "grumpy".
 // - Use the find method to get the first cat with a "long" hair length.
