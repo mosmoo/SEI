@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Pain (Nagato)",
+        "age": "35",
+        "village": "Amegakure",
+        "occupation": "Former Leader of Akatsuki",
+        "jutsu": [
+            "Rinnegan",
+            "Almighty Push",
+            "Chibaku Tensei",
+            "Summoning: Demonic Statue of the Outer Path"
+        ]
+    },
+    {
+        "name": "Konan",
+        "age": "35",
+        "village": "Amegakure",
+        "occupation": "Former Akatsuki Member",
+        "jutsu": [
+            "Paper Jutsu",
+            "Angel Wings",
+            "Dance of the Shikigami"
+        ]
+    },
+    {
+        "name": "Itachi Uchiha",
+        "age": "21 (at the time of his death)",
+        "village": "Konohagakure",
+        "occupation": "Former Akatsuki Member",
+        "jutsu": [
+            "Sharingan",
+            "Amaterasu",
+            "Tsukuyomi",
+            "Susanoo"
+        ]
+    },
+    {
+        "name": "Kisame Hoshigaki",
+        "age": "32 (at the time of his death)",
+        "village": "Kirigakure",
+        "occupation": "Former Akatsuki Member",
+        "jutsu": [
+            "Samehada",
+            "Water Release Jutsu",
+            "Shark Skin",
+            "Great Shark Bullet Technique"
+        ]
+    },
+    {
+        "name": "Deidara",
+        "age": "19 (at the time of his death)",
+        "village": "Iwagakure",
+        "occupation": "Former Akatsuki Member",
+        "jutsu": [
+            "Explosive Clay",
+            "C0, C1, C2, C3, C4",
+            "Artistic Explosion",
+            "C0: Annihilation"
+        ]
+    },
+    {
+        "name": "Sasori",
+        "age": "Deceased (in his 30s at the time of death)",
+        "village": "Sunagakure",
+        "occupation": "Former Akatsuki Member",
+        "jutsu": [
+            "Puppet Mastery",
+            "Hiruko",
+            "Red Secret Technique: Performance of a Hundred Puppets",
+            "Iron Sand"
+        ]
+    },
+    {
+        "name": "Hidan",
+        "age": "Immortal (due to his curse)",
+        "village": "Yugakure",
+        "occupation": "Former Akatsuki Member",
+        "jutsu": [
+            "Curse Technique: Death Controlling Possessed Blood",
+            "Triple-Bladed Scythe",
+            "Jashin Ritual"
+        ]
+    },
+    {
+        "name": "Kakuzu",
+        "age": "Over 90 (due to his immortality)",
+        "village": "Takigakure",
+        "occupation": "Former Akatsuki Member",
+        "jutsu": [
+            "Earth Grudge Fear",
+            "Heavenly Life Technique",
+            "Five Hearts Destruction Jutsu"
+        ]
+    }
+]
