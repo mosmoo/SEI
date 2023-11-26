@@ -40,7 +40,7 @@ const App = () => {
           path="/products/:id/edit"
           element={user ? <ProductEdit user={user} /> : <Navigate to="/" />}
         />
-        <Route path="/products/:id" element={<ProductDetail user={user} />} />
+        {/* <Route path="/products/:id" element={<ProductDetail user={user} />} /> */}
       </Routes>
     </div>
   );
