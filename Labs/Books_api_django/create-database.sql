@@ -1,0 +1,3 @@
+CREATE DATABASE books_api;
+
+CREATE USER api_admin SUPERUSER;
